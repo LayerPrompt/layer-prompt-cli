@@ -1,6 +1,6 @@
 import { AccessList, Address, parseEther } from "viem";
-import { ToolConfig } from "./all-tools";
-import { createViemWalletClient } from "../viem/create-viem-wallet-client";
+import { ToolConfig } from "./all-tools.js";
+import { createViemWalletClient } from "../viem/create-viem-wallet-client.js";
 
 interface SendTransactionArgs {
   to: Address;

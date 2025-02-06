@@ -1,5 +1,5 @@
 import { Address } from "viem";
-import { ToolConfig } from "./all-tools";
+import { ToolConfig } from "./all-tools.js";
 
 interface GetTokenDataArgs {
   address: Address;

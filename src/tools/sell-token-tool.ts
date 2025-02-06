@@ -1,6 +1,6 @@
 import { solidityPacked } from "ethers";
-import { createViemWalletClient } from "../viem/create-viem-wallet-client";
-import { ToolConfig } from "./all-tools";
+import { createViemWalletClient } from "../viem/create-viem-wallet-client.js";
+import { ToolConfig } from "./all-tools.js";
 
 const UNISWAP_V3_ROUTER_ADDRESS = "0xE592427A0AEce92De3Edee1F18E0157C05861564";
 const UNISWAP_V3_ROUTER_ABI = [

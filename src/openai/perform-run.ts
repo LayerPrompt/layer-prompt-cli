@@ -1,7 +1,7 @@
 import OpenAI from "openai";
 import { Run } from "openai/resources/beta/threads";
 import { Thread } from "openai/src/resources/beta";
-import { runToolsHandler } from "./tools-handler";
+import { runToolsHandler } from "./tools-handler.js";
 
 export const performRun = async (run: Run, client: OpenAI, thread: Thread) => {
   while (run.status === "requires_action") {

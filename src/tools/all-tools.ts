@@ -1,10 +1,10 @@
-import { buyTokenTool } from "./buy-token-tool";
-import { getBalanceTool } from "./get-balance-tool";
-import { getTokenData } from "./get-token-data";
-import { getWalletAddressTool } from "./get-wallet-address";
-import { readContractTool } from "./read-contract";
-import { sellTokenTool } from "./sell-token-tool";
-import { sendTransactionTool } from "./send-transaction-tool";
+import { buyTokenTool } from "./buy-token-tool.js";
+import { getBalanceTool } from "./get-balance-tool.js";
+import { getTokenData } from "./get-token-data.js";
+import { getWalletAddressTool } from "./get-wallet-address.js";
+import { readContractTool } from "./read-contract.js";
+import { sellTokenTool } from "./sell-token-tool.js";
+import { sendTransactionTool } from "./send-transaction-tool.js";
 
 export type ToolConfig<T = any> = {
   definition: {
